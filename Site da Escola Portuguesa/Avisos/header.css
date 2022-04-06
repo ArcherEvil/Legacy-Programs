@@ -1,0 +1,46 @@
+
+.grid {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 100px 1fr 15vw;
+    grid-template-columns: 1fr;
+}
+
+/* The Header */
+
+.navbar {
+    background: #ffffff;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px rgb(0, 0, 0);
+    z-index: 99;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+
+}
+
+#header-logo {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    text-decoration: underline;
+}
+
+
+#nav {
+    background: none;
+    border: none;
+    padding: 1vw;
+    margin-top: 1vw;
+    font-size: 1.5vw;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    transition: 200ms;
+}
+
+#nav:hover {
+    background: #242424;
+    color: white;
+}

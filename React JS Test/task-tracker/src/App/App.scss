@@ -1,0 +1,6 @@
+$navbar-height : 110px;
+
+.App {
+    display: grid;
+    grid-template-rows: $navbar-height 1fr;
+}

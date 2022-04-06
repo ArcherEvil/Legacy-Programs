@@ -1,0 +1,7 @@
+.App {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 110px 1fr;
+      grid-template-rows: 110px 1fr;
+}
+/*# sourceMappingURL=App.css.map */

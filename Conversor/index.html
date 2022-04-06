@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Conversor de Moeda</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <script src="code.js" defer></script>
+        <meta name="viewport" content="width=device-width">
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                Conversor de Moeda
+            </div>
+            <main>
+                <div class="box">
+                    <p id="title">De:</p>
+                    <p id="title">Para:</p>
+                    
+                    <div>
+                        <p id="align">
+                            <select name="List" id="id_list_from">
+                                <option value="Euro">€ - Euro</option>
+                                <option value="Dobra">Dbr - Dobra</option>
+                                <option value="Dollar">$ - Dollar</option>
+                                <option value="Pound">£ - Pound</option>
+                                <option value="Reais">R$ - Reais</option>
+                            </select>
+                            <div id="align">
+                                <input type="number" value="" id="text-box" min="0" placeholder="Digite a quantia.">
+                            </div>
+                            
+                        </p>
+                    </div>
+                    
+                    <div>
+                        <p id="align">
+                            <select name="List" id="id_list_after">
+                                <option value="Euro">€ - Euro</option>
+                                <option value="Dobra">Dbr - Dobra</option>
+                                <option value="Dollar">$ - Dollar</option>
+                                <option value="Pound">£ - Pound</option>
+                                <option value="Reais">R$ - Reais</option>
+                            </select>
+                        
+                        </p>
+                        <p id="text">0</p>
+                        
+                    </div>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>

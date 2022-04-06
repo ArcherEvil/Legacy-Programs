@@ -1,0 +1,173 @@
+/* Universals */
+
+#align {
+    text-align: center;
+}
+p#title {
+    color: teal;
+    text-align: center;
+    font-weight: 700;
+    font-size: 300%;
+    padding: 0;
+    margin: 10px;
+
+ }
+
+/* Containers */
+
+body {
+    background: url(background.png);
+    background-size: cover ;
+    margin: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    display: grid;
+    
+    grid-template-rows: 150px 1fr;
+    grid-template-columns: 1fr;
+
+    gap: 10px;
+    
+}
+
+/* Header */
+
+.header {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 40px ;
+    text-shadow: 0px 0px 10px gray;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.header:hover {
+    text-decoration: underline;
+}
+/* The Box */
+
+.box {
+    background-color: white;
+    display: grid;
+    width: 75%;
+    padding-bottom: 1%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    margin: auto;
+    padding-bottom: 0%;
+    max-height: 100vh;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px rgb(139, 139, 139);
+}
+
+/* The dropdown */
+
+#id_list_after {
+    padding: 10px 100px 10px 10px;
+    border-radius: 10px;
+    border: 2px solid teal;
+    font-weight: 700;
+    font-size: large;
+    text-align: center;
+
+}
+
+#id_list_from {
+    padding: 10px 100px 10px 10px;
+    border-radius: 10px;
+    border: 2px solid teal;
+    font-weight: 700;
+    font-size: large;
+    text-align: center;
+
+}
+
+#text-box {
+    border-radius: 2px;
+    font-size: 20px;
+    border: 1px solid rgb(143, 143, 143);
+    color: rgb(97, 97, 97);
+    text-align: center;
+
+}
+
+#text {
+    font-size: 20px;
+    color: rgb(97, 97, 97);
+    text-align: center;
+
+}
+
+/* Screen for Telefones */
+
+@media screen and (max-width: 700px) {
+
+    .header {
+        text-align: center;
+        color: rgb(255, 255, 255);
+        padding: 40px ;
+        text-shadow: 0px 0px 10px gray;
+        font-size: 40px;
+        font-weight: 900;
+    }
+
+    .box {
+        background-color: white;
+        display: grid;
+        width: 90%;
+        padding-bottom: 1%;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 2fr;
+        margin: auto;
+        padding-bottom: 0%;
+        max-height: 100vh;
+        border-radius: 50px;
+        box-shadow: 0px 0px 10px rgb(139, 139, 139);
+    }
+
+    #id_list_after {
+        padding: 5px 30px 5px 5px;
+        border-radius: 10px;
+        border: 2px solid teal;
+        font-weight: 700;
+        font-size: large;
+        text-align: center;
+    
+    }
+    
+    #id_list_from {
+        padding: 5px 30px 5px 5px;
+        border-radius: 10px;
+        border: 2px solid teal;
+        font-weight: 700;
+        font-size: large;
+        text-align: center;
+    
+    }
+    
+    p#title {
+        color: teal;
+        text-align: center;
+        font-weight: 700;
+        font-size: 200%;
+        padding: 0;
+        margin: 10px;
+    
+     }
+     #text-box {
+        border-radius: 2px;
+        font-size: 20px;
+        border: none;
+        color: rgb(97, 97, 97);
+        text-align: center;
+    
+    }
+
+    
+
+}

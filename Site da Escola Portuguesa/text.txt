@@ -1,0 +1,28 @@
+                    <div class="container">
+                        <img class="icon2" src="icons/2.png" alt="">
+                        <p id="icon-text2">Biblioteca</p>
+                    </div>
+                    <div class="container">
+                        <img class="icon3" src="icons/3.png" alt="">
+                        <p id="icon-text3">Documentos Orientadores</p>
+                    </div>
+                    <div class="container">
+                        <img class="icon4" src="icons/4.png" alt="">
+                        <p id="icon-text4">Zona Recursos Docentes</p>
+                    </div>
+                    <div class="container">
+                        <img class="icon5" src="icons/5.png" alt="">
+                        <p id="icon-text5">Legislação</p>
+                    </div>
+                    <div class="container">
+                        <img class="icon6" src="icons/6.png" alt="">
+                        <p id="icon-text6">Oferta Educativa e Calendário</p>
+                    </div>
+                    <div class="container">
+                        <img class="icon7" src="icons/7.png" alt="">
+                        <p id="icon-text7">Organização</p>
+                    </div>
+                    <div class="container">
+                        <img class="icon8" src="icons/8.png" alt="">
+                        <p id="icon-text8">PAA</p>
+                    </div>

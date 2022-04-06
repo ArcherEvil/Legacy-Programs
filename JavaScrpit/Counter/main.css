@@ -1,0 +1,71 @@
+.background {
+    background: url(background.png);
+    background-size: cover;
+}
+
+
+#first {
+    margin-top: 0px;
+    padding: 0px;
+    text-shadow: 0 0 7px rgb(0, 0, 0, 50%);
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 50px;
+}
+
+.counter {
+    color: red;
+}
+
+#number {
+    color: rgb(53, 13, 13);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 90px;
+    text-shadow: 0 0 7px rgb(0, 0, 0, 30%);
+}
+
+#container {
+    margin-top: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+#button_in {
+    background: rgb(26, 133, 151);
+    border: 3px solid rgb(26, 133, 151);
+    border-radius: 100px;
+    padding: 20px 50px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    transition: 0.8s;
+}
+
+#button_in:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(26, 133, 151);
+}
+
+#button_de {
+    background: rgb(26, 133, 151);
+    border: 3px solid rgb(26, 133, 151);
+    border-radius: 100px;
+    padding: 20px 50px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    transition: 0.8s;
+}
+
+#button_de:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(26, 133, 151);
+}
+

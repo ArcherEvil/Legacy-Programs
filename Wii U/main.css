@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.align {
+    text-align: center;
+}
+
+
+.header {
+    box-shadow: 00px 10px 15px rgb(233, 233, 233);
+}
+
+#first_title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0;
+    color: rgb(0, 0, 0);
+    margin-bottom: 0px;
+    padding: 5px ;
+}
+
+a {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+
+}
+
+.nav {
+    text-align: center;
+}
+
+#nav {
+    background: none;
+    border: none;
+    padding: auto;
+    margin-top: 0;
+    margin: 10px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 300;
+    color: rgb(129, 129, 129);
+}
+
+#nav:hover {
+    text-decoration: underline;
+
+}
+
+.fit_console_main {
+    animation: transition-in 1s;
+    display: grid;
+    height: 100%;
+}
+
+#Console_main {
+    max-width: 70%;
+    max-height: 100vh;
+    margin: auto;
+}
+
+@keyframes transition-in {
+    from {
+        margin-top: 200px;
+    }
+    to {
+        margin-top: 0px;
+    }
+}
+
+@keyframes transition-op {
+    from {
+        opacity: 0%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+
+
+#marketing {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 70px;
+    animation: transition-op 2s;
+}
+
+#button {
+    margin-top: 20px;
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 10px 50px;
+    margin-left: auto;
+    margin-right: auto;
+    animation: transition-op 2s;
+
+}
+
+
+#wii-u-black {
+    margin: 20px;
+    width: 100%;
+    border-radius: 40px;
+    position: relative;
+    left: -20px;
+    transition: 1s;
+    z-index: 99;
+}
+
+.fit-another:hover > #wii-u-black { left: -800px; } 
+
+
+.fit-another {
+    position: relative;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.sinopse-float {
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    left: 5px;
+    padding-left: 800px;
+}
+
+#the_article {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 20px;
+    line-height: 8mm;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: rgb(168, 168, 168);
+}
+
+#article-title {
+    color: rgb(80, 131, 173);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    font-weight: 800;
+    
+}
+
+.box_container {
+    margin-top: 50px;
+    display: grid;
+    width: 100%;
+    grid-row: 1fr 1fr;
+
+}
+.box_row {
+    display: flex;
+}
+
+.box {
+    height: 150px;
+    width: 500px;
+    display: grid;
+    margin: 30px;
+    margin-left: 30px;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 30px 1fr;
+}
+
+.box2 {
+    height: 150px;
+    width: 500px;
+    display: grid;
+    margin: 30px;
+    margin-left: 400px;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 30px 1fr;
+}
+
+#box_title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    color: rgb(105, 105, 105);
+    font-weight: 900;
+    grid-column-start: 2;
+}
+
+#box_title:hover {
+    text-decoration: underline;
+
+}
+
+
+#box_text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(177, 177, 177);
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+#box_image {
+    grid-row-start: 1;
+    grid-column-start: 1;
+}
+
+
+.footer {
+    height: 200px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background: url(footer-background.png);
+    background-position-y: 800px;
+    z-index: 99;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#copyright {
+    color: blanchedalmond;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    #the_article {
+        text-align: justify;
+        text-justify: inter-word;
+        font-size: 5px;
+        line-height: 3mm;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        color: rgb(168, 168, 168);
+    }
+    
+    #article-title {
+        color: rgb(80, 131, 173);
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 10px;
+        font-weight: 800;
+        
+    }
+
+    .box {
+        height: 50px;
+        width: 200px;
+        display: grid;
+        margin: 10px;
+        margin-left: 10px;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 10px 1fr;
+    }
+    
+    
+}

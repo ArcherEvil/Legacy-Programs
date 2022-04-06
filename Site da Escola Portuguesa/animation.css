@@ -1,0 +1,61 @@
+/* The Keyframes */
+@keyframes transition-in {
+    from {
+        top: 100%;
+    }
+    to {
+        top: 30%;
+    }
+}
+
+@keyframes transition-in2 {
+    from {
+        top: 110%;
+    }
+    to {
+        top: 45%;
+    }
+}
+
+@keyframes transition-in3 {
+    from {
+        top: 117%;
+    }
+    to {
+        top: 47%;
+    }
+}
+
+@keyframes transition-op {
+    from {
+        opacity: 0%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+
+.centered {
+    animation: transition-in 1s;
+}
+
+
+.container-text1 {
+    animation: transition-in2 1s;       
+}
+
+.container-text2 {
+    animation: transition-in3 1s; 
+}
+
+
+@keyframes icons {
+    from {
+        opacity: 0%;
+        margin-top: 0px;
+    }
+    to {
+        opacity: 100%;
+        margin-top: 150px;
+    }
+}
